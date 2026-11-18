@@ -1,0 +1,137 @@
+.simulation-page {
+  min-width: 0;
+  min-height: 100vh;
+  overflow: auto;
+  background: #775d48;
+}
+
+.simulation-shell {
+  width: min(1100px, calc(100% - 32px));
+  margin: 24px auto;
+  padding: 24px;
+  background: var(--paper);
+  border: 4px solid var(--ink);
+  box-shadow: inset 0 0 0 4px var(--paper-dark), 6px 6px 0 var(--wood-dark);
+}
+
+.simulation-header,
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.simulation-header {
+  align-items: flex-start;
+  padding-bottom: 18px;
+  border-bottom: 4px solid var(--wood);
+}
+
+.simulation-header h1,
+.simulation-card h2 {
+  margin: 4px 0 8px;
+  color: var(--wood-dark);
+}
+
+.simulation-header p:not(.eyebrow),
+.help-text {
+  margin: 0;
+}
+
+.simulation-card {
+  margin-top: 20px;
+  padding: 16px;
+  background: var(--paper-light);
+  border: 3px solid var(--wood);
+}
+
+.option {
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.visit-list {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.visit-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px;
+  background: rgba(255, 255, 255, .5);
+  border: 2px solid var(--paper-dark);
+}
+
+.visit-row span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.simulation-header button,
+.simulation-card > button {
+  padding: 9px 12px;
+  border: 2px solid var(--ink);
+  background: var(--gold);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.simulation-header button:active,
+.simulation-card > button:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.summary strong {
+  padding: 8px;
+  background: rgba(255, 255, 255, .5);
+  border: 2px solid var(--paper-dark);
+}
+
+.results {
+  overflow-x: auto;
+}
+
+.results table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.results th,
+.results td {
+  padding: 7px;
+  border: 1px solid var(--paper-dark);
+  text-align: left;
+  vertical-align: top;
+}
+
+.simulation-status {
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .simulation-shell {
+    width: calc(100% - 16px);
+    margin: 8px auto;
+    padding: 14px;
+  }
+
+  .simulation-header {
+    display: grid;
+  }
+}

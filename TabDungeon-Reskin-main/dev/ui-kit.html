@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabDungeon UI Kit</title>
+  <link rel="stylesheet" href="../assets/ui/ui-theme.css">
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #252233;
+      color: #f9e9c9;
+      font: 14px "Trebuchet MS", "Segoe UI", sans-serif;
+    }
+
+    main {
+      display: grid;
+      gap: 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+
+    header {
+      display: grid;
+      gap: 8px;
+    }
+
+    .section {
+      display: grid;
+      gap: 12px;
+    }
+
+    .section > h2 {
+      color: #f4c45f;
+      font-size: 18px;
+    }
+
+    .demo-row,
+    .sprite-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .demo-row {
+      padding: 18px;
+      background: #342b3d;
+      border: 1px solid #66596d;
+    }
+
+    .manifest-group {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+      background: #342b3d;
+      border: 1px solid #66596d;
+    }
+
+    .manifest-group h3 {
+      margin: 0;
+      color: #f4c45f;
+      font-size: 14px;
+    }
+
+    .sprite-card {
+      display: grid;
+      justify-items: center;
+      gap: 6px;
+      width: 112px;
+      min-height: 86px;
+      padding: 8px;
+      background: #40374a;
+      color: #f9e9c9;
+      text-align: center;
+      overflow-wrap: anywhere;
+    }
+
+    .sprite-preview {
+      display: grid;
+      place-items: center;
+      min-width: 64px;
+      min-height: 38px;
+      padding: 4px;
+      background: #1d1a26;
+    }
+
+    .sprite-preview img {
+      display: block;
+      max-width: 88px;
+      max-height: 52px;
+      image-rendering: pixelated;
+    }
+
+    .sprite-name {
+      font-size: 10px;
+    }
+
+    .error {
+      color: #ff9a8b;
+    }
+  </style>
+</head>
+<body>
+  <main class="ui-theme">
+    <header>
+      <h1>TabDungeon UI Kit</h1>
+      <p class="ui-muted">Phase 1 preview. Runtime UI is not modified by this page.</p>
+    </header>
+
+    <section class="section">
+      <h2>Theme primitives</h2>
+      <div class="ui-panel">
+        <div class="demo-row">
+          <button class="ui-button" type="button">Tan button</button>
+          <button class="ui-button ui-button-green" type="button">Confirm</button>
+          <button class="ui-button ui-button-red" type="button">Again</button>
+          <button class="ui-button ui-button-blue" type="button">Study</button>
+          <button class="ui-button ui-button-small ui-button-purple" type="button">Small</button>
+          <button class="ui-icon-button ui-icon-chat" type="button" aria-label="Chat"></button>
+        </div>
+        <div class="demo-row">
+          <div class="ui-card">Paper card with readable content.</div>
+          <div class="ui-ribbon">Due cards</div>
+          <div class="ui-book" aria-label="Book decoration" role="img"></div>
+          <div class="ui-bar" aria-label="65 percent progress"><div class="ui-bar-fill"></div></div>
+          <button class="ui-toggle" type="button" role="switch" aria-checked="false" aria-label="Toggle preview"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Manifest sprites</h2>
+      <div id="manifest-output">
+        <p>Loading assets/ui/ui-names.json...</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const output = document.getElementById('manifest-output');
+
+    function groupName(name) {
+      return name.split('.')[0];
+    }
+
+    function renderManifest(manifest) {
+      const entries = Object.entries(manifest.sprites || {});
+      output.textContent = '';
+      const groups = new Map();
+      entries.forEach(([name, sprite]) => {
+        const group = groupName(name);
+        if (!groups.has(group)) groups.set(group, []);
+        groups.get(group).push([name, sprite]);
+      });
+
+      groups.forEach((sprites, group) => {
+        const section = document.createElement('section');
+        section.className = 'manifest-group';
+        const heading = document.createElement('h3');
+        heading.textContent = group;
+        const grid = document.createElement('div');
+        grid.className = 'sprite-grid';
+        sprites.forEach(([name, sprite]) => {
+          const card = document.createElement('article');
+          card.className = 'sprite-card';
+          const preview = document.createElement('div');
+          preview.className = 'sprite-preview';
+          const image = document.createElement('img');
+          image.src = `../assets/ui/${sprite.file}`;
+          image.alt = name;
+          image.width = Math.min(sprite.w, 88);
+          image.height = Math.min(sprite.h, 52);
+          image.onerror = () => {
+            image.replaceWith(Object.assign(document.createElement('span'), {
+              className: 'error',
+              textContent: 'missing'
+            }));
+          };
+          const label = document.createElement('span');
+          label.className = 'sprite-name';
+          label.textContent = name;
+          preview.appendChild(image);
+          card.append(preview, label);
+          grid.appendChild(card);
+        });
+        section.append(heading, grid);
+        output.appendChild(section);
+      });
+    }
+
+    fetch('../assets/ui/ui-names.json')
+      .then(response => {
+        if (!response.ok) throw new Error(`Manifest request failed: ${response.status}`);
+        return response.json();
+      })
+      .then(renderManifest)
+      .catch(error => {
+        output.textContent = '';
+        const message = document.createElement('p');
+        message.className = 'error';
+        message.textContent = `Unable to load the UI manifest: ${error.message}`;
+        output.appendChild(message);
+      });
+
+    document.querySelector('.ui-toggle').addEventListener('click', event => {
+      const enabled = event.currentTarget.getAttribute('aria-checked') === 'true';
+      event.currentTarget.setAttribute('aria-checked', String(!enabled));
+    });
+  </script>
+</body>
+</html>

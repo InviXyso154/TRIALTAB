@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabDungeon Sprite Preview</title>
+  <style>
+    body { margin: 0; padding: 20px; background: #3f2832; color: #fff1cf; font: 16px monospace; }
+    h1 { margin-top: 0; }
+    .sprite-group { display: grid; gap: 12px; margin-bottom: 24px; }
+    .sprite-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .sprite-card { width: 160px; min-height: 150px; padding: 8px; background: #775d48; border: 2px solid #f6be58; }
+    .sprite-card strong, .sprite-card small { display: block; }
+    .preview { display: grid; place-items: center; min-height: 92px; margin-top: 8px; background: #f9d8a9; overflow: hidden; }
+    .game-sprite { background-repeat: no-repeat; image-rendering: pixelated; }
+    .sprite-placeholder { display: grid; place-items: center; padding: 4px; background: #b44949; color: #fff; font-size: 11px; text-align: center; }
+    button { padding: 6px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Theme sprite preview</h1>
+  <p>Preview tags from both registered themes. Click a tag to play it once.</p>
+  <div id="preview"></div>
+  <script type="module">
+    import { THEMES } from '../game/asset-map.js';
+    import { createSprite, loadAtlas, loadGridAtlas } from '../game/sprite-engine.js';
+
+    const root = document.getElementById('preview');
+
+    function addDefinition(group, definition) {
+      const card = document.createElement('article');
+      card.className = 'sprite-card';
+      const title = document.createElement('strong');
+      title.textContent = definition.name;
+      const label = document.createElement('small');
+      label.textContent = definition.type === 'grid' ? 'grid atlas' : 'Aseprite atlas';
+      const preview = document.createElement('div');
+      preview.className = 'preview';
+      card.append(title, label, preview);
+      group.appendChild(card);
+      return { card, preview };
+    }
+
+    async function loadDefinition(definition) {
+      return definition.type === 'grid'
+        ? loadGridAtlas(definition)
+        : loadAtlas(definition.sheet, definition.jsonUrl, definition);
+    }
+
+    async function renderTheme(name, theme) {
+      const group = document.createElement('section');
+      group.className = 'sprite-group';
+      const heading = document.createElement('h2');
+      heading.textContent = name;
+      const row = document.createElement('div');
+      row.className = 'sprite-row';
+      group.append(heading, row);
+      root.appendChild(group);
+
+      const definitions = [
+        theme.hero,
+        ...(theme.monster_t1 || []),
+        ...(theme.defeat ? [theme.defeat] : [])
+      ].filter(Boolean);
+      for (const definition of definitions) {
+        const atlas = await loadDefinition(definition);
+        const entries = Object.keys(atlas.tags || {}).filter(tag => tag === tag.toLowerCase());
+        const tags = entries.length ? entries : ['idle'];
+        for (const tag of tags) {
+          const item = addDefinition(row, definition);
+          const button = document.createElement('button');
+          button.textContent = `Play ${tag}`;
+          item.card.insertBefore(button, item.preview);
+          const sprite = createSprite(item.preview, atlas, {
+            scale: definition.displayScale,
+            facing: definition.facing
+          });
+          sprite.play(tag, { loop: true });
+          button.addEventListener('click', () => sprite.play(tag));
+        }
+      }
+    }
+
+    for (const [name, theme] of Object.entries(THEMES)) {
+      renderTheme(name, theme).catch(error => {
+        const message = document.createElement('p');
+        message.textContent = `${name} preview failed: ${error.message}`;
+        root.appendChild(message);
+      });
+    }
+  </script>
+</body>
+</html>

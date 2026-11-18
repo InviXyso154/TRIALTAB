@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabDungeon Relevance Simulation</title>
+  <link rel="stylesheet" href="../sidepanel/styles.css">
+  <link rel="stylesheet" href="simulation.css">
+</head>
+<body class="simulation-page">
+  <main class="simulation-shell">
+    <header class="simulation-header">
+      <div>
+        <p class="eyebrow">DEVELOPER TOOL</p>
+        <h1>Relevance simulation</h1>
+        <p>This is a simulation only. It does not change cards, schedules, or browser tabs.</p>
+      </div>
+      <button id="refresh" type="button">Refresh decks</button>
+    </header>
+
+    <section class="simulation-card">
+      <h2>Visits</h2>
+      <label class="option"><input id="include-tabs" type="checkbox"> Include currently open tabs</label>
+      <p class="help-text">The mock visits are always included. Open tabs use their available local page metadata.</p>
+      <div id="visit-list" class="visit-list"></div>
+      <button id="run" type="button">Run simulation</button>
+    </section>
+
+    <section class="simulation-card">
+      <h2>Statistics</h2>
+      <div id="summary" class="summary"><p class="help-text">Run the simulation to see results.</p></div>
+      <div id="results" class="results"></div>
+    </section>
+    <p id="status" class="simulation-status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="simulation.js"></script>
+</body>
+</html>

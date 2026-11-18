@@ -1,0 +1,16 @@
+{
+  "data": {
+    "keywords": "data structures algorithms computer science",
+    "cards": [
+      { "id": "data-1", "front": "Binary trees", "back": "Nodes edges traversal recursion" },
+      { "id": "data-2", "front": "Graph algorithms", "back": "Vertices edges breadth first search" }
+    ]
+  },
+  "biology": {
+    "keywords": "biology plants cells life science",
+    "cards": [
+      { "id": "bio-1", "front": "Photosynthesis", "back": "Chlorophyll converts light into energy" },
+      { "id": "bio-2", "front": "Cell structure", "back": "Nucleus membrane mitochondria" }
+    ]
+  }
+}

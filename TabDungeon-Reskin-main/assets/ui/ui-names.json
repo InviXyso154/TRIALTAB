@@ -1,0 +1,1589 @@
+{
+  "note": "curated name -> sprite file. Verify against _preview_*.png. Slices are in README.",
+  "sprites": {
+    "btn.pill.tan.normal": {
+      "file": "buttons/tan_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.tan.normal": {
+      "file": "buttons/tan_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.tan.normal": {
+      "file": "buttons/tan_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.tan.normal": {
+      "file": "buttons/tan_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.tan.normal": {
+      "file": "buttons/tan_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.tan.hover": {
+      "file": "buttons/tan_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.tan.hover": {
+      "file": "buttons/tan_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.tan.hover": {
+      "file": "buttons/tan_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.tan.hover": {
+      "file": "buttons/tan_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.tan.hover": {
+      "file": "buttons/tan_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.tan.pressed": {
+      "file": "buttons/tan_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.tan.pressed": {
+      "file": "buttons/tan_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.tan.pressed": {
+      "file": "buttons/tan_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.tan.pressed": {
+      "file": "buttons/tan_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.tan.pressed": {
+      "file": "buttons/tan_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.green.normal": {
+      "file": "buttons/green_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.green.normal": {
+      "file": "buttons/green_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.green.normal": {
+      "file": "buttons/green_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.green.normal": {
+      "file": "buttons/green_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.green.normal": {
+      "file": "buttons/green_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.green.hover": {
+      "file": "buttons/green_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.green.hover": {
+      "file": "buttons/green_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.green.hover": {
+      "file": "buttons/green_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.green.hover": {
+      "file": "buttons/green_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.green.hover": {
+      "file": "buttons/green_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.green.pressed": {
+      "file": "buttons/green_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.green.pressed": {
+      "file": "buttons/green_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.green.pressed": {
+      "file": "buttons/green_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.green.pressed": {
+      "file": "buttons/green_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.green.pressed": {
+      "file": "buttons/green_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.red.normal": {
+      "file": "buttons/red_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.red.normal": {
+      "file": "buttons/red_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.red.normal": {
+      "file": "buttons/red_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.red.normal": {
+      "file": "buttons/red_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.red.normal": {
+      "file": "buttons/red_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.red.hover": {
+      "file": "buttons/red_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.red.hover": {
+      "file": "buttons/red_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.red.hover": {
+      "file": "buttons/red_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.red.hover": {
+      "file": "buttons/red_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.red.hover": {
+      "file": "buttons/red_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.red.pressed": {
+      "file": "buttons/red_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.red.pressed": {
+      "file": "buttons/red_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.red.pressed": {
+      "file": "buttons/red_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.red.pressed": {
+      "file": "buttons/red_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.red.pressed": {
+      "file": "buttons/red_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.yellow.normal": {
+      "file": "buttons/yellow_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.yellow.normal": {
+      "file": "buttons/yellow_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.yellow.normal": {
+      "file": "buttons/yellow_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.yellow.normal": {
+      "file": "buttons/yellow_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.yellow.normal": {
+      "file": "buttons/yellow_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.yellow.hover": {
+      "file": "buttons/yellow_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.yellow.hover": {
+      "file": "buttons/yellow_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.yellow.hover": {
+      "file": "buttons/yellow_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.yellow.hover": {
+      "file": "buttons/yellow_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.yellow.hover": {
+      "file": "buttons/yellow_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.yellow.pressed": {
+      "file": "buttons/yellow_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.yellow.pressed": {
+      "file": "buttons/yellow_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.yellow.pressed": {
+      "file": "buttons/yellow_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.yellow.pressed": {
+      "file": "buttons/yellow_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.yellow.pressed": {
+      "file": "buttons/yellow_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.blue.normal": {
+      "file": "buttons/blue_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.blue.normal": {
+      "file": "buttons/blue_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.blue.normal": {
+      "file": "buttons/blue_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.blue.normal": {
+      "file": "buttons/blue_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.blue.normal": {
+      "file": "buttons/blue_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.blue.hover": {
+      "file": "buttons/blue_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.blue.hover": {
+      "file": "buttons/blue_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.blue.hover": {
+      "file": "buttons/blue_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.blue.hover": {
+      "file": "buttons/blue_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.blue.hover": {
+      "file": "buttons/blue_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.blue.pressed": {
+      "file": "buttons/blue_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.blue.pressed": {
+      "file": "buttons/blue_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.blue.pressed": {
+      "file": "buttons/blue_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.blue.pressed": {
+      "file": "buttons/blue_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.blue.pressed": {
+      "file": "buttons/blue_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.grey.normal": {
+      "file": "buttons/grey_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.grey.normal": {
+      "file": "buttons/grey_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.grey.normal": {
+      "file": "buttons/grey_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.grey.normal": {
+      "file": "buttons/grey_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.grey.normal": {
+      "file": "buttons/grey_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.grey.hover": {
+      "file": "buttons/grey_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.grey.hover": {
+      "file": "buttons/grey_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.grey.hover": {
+      "file": "buttons/grey_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.grey.hover": {
+      "file": "buttons/grey_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.grey.hover": {
+      "file": "buttons/grey_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.grey.pressed": {
+      "file": "buttons/grey_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.grey.pressed": {
+      "file": "buttons/grey_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.grey.pressed": {
+      "file": "buttons/grey_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.grey.pressed": {
+      "file": "buttons/grey_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.grey.pressed": {
+      "file": "buttons/grey_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.purple.normal": {
+      "file": "buttons/purple_round_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.purple.normal": {
+      "file": "buttons/purple_rect_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.purple.normal": {
+      "file": "buttons/purple_oct_normal.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.purple.normal": {
+      "file": "buttons/purple_rect_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.purple.normal": {
+      "file": "buttons/purple_round_small_normal.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.purple.hover": {
+      "file": "buttons/purple_round_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.purple.hover": {
+      "file": "buttons/purple_rect_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.purple.hover": {
+      "file": "buttons/purple_oct_hover.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.purple.hover": {
+      "file": "buttons/purple_rect_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.purple.hover": {
+      "file": "buttons/purple_round_small_hover.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.pill.purple.pressed": {
+      "file": "buttons/purple_round_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.rect.purple.pressed": {
+      "file": "buttons/purple_rect_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.oct.purple.pressed": {
+      "file": "buttons/purple_oct_pressed.png",
+      "w": 30,
+      "h": 14
+    },
+    "btn.square.purple.pressed": {
+      "file": "buttons/purple_rect_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "btn.round.purple.pressed": {
+      "file": "buttons/purple_round_small_pressed.png",
+      "w": 14,
+      "h": 14
+    },
+    "panel.tan": {
+      "file": "frames/paper_l.png",
+      "w": 32,
+      "h": 32
+    },
+    "paper.light.s": {
+      "file": "frames/paper_s.png",
+      "w": 22,
+      "h": 22
+    },
+    "paper.light.m": {
+      "file": "frames/paper_m.png",
+      "w": 26,
+      "h": 26
+    },
+    "paper.light.l": {
+      "file": "frames/paper_l.png",
+      "w": 32,
+      "h": 32
+    },
+    "frame.wood.a": {
+      "file": "frames/wood_frame_a.png",
+      "w": 42,
+      "h": 41
+    },
+    "frame.wood.b": {
+      "file": "frames/wood_frame_b.png",
+      "w": 40,
+      "h": 41
+    },
+    "plate.tan": {
+      "file": "frames/plate_tan.png",
+      "w": 22,
+      "h": 10
+    },
+    "block.tan": {
+      "file": "frames/block_tan.png",
+      "w": 20,
+      "h": 20
+    },
+    "bar.track": {
+      "file": "bars/bar_track.png",
+      "w": 12,
+      "h": 6
+    },
+    "bar.fill.red": {
+      "file": "bars/bar_fill_red.png",
+      "w": 10,
+      "h": 4
+    },
+    "bar.fill.blue": {
+      "file": "bars/bar_fill_blue.png",
+      "w": 10,
+      "h": 4
+    },
+    "bar.fill.green": {
+      "file": "bars/bar_fill_green.png",
+      "w": 10,
+      "h": 4
+    },
+    "hud.frame.hero": {
+      "file": "bars/hud_frame_hero.png",
+      "w": 48,
+      "h": 19
+    },
+    "hud.frame.empty": {
+      "file": "bars/hud_frame_empty.png",
+      "w": 48,
+      "h": 19
+    },
+    "toggle.track.on": {
+      "file": "sliders/track_0.png",
+      "w": 30,
+      "h": 12
+    },
+    "toggle.track.off": {
+      "file": "sliders/track_4.png",
+      "w": 30,
+      "h": 12
+    },
+    "icon.heart": {
+      "file": "icons/r00_c00.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.heart.half": {
+      "file": "icons/r00_c01.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.heart.empty": {
+      "file": "icons/r00_c02.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.star": {
+      "file": "icons/r00_c03.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.star.half": {
+      "file": "icons/r00_c04.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.star.empty": {
+      "file": "icons/r00_c05.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.coin": {
+      "file": "icons/r00_c06.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.bolt": {
+      "file": "icons/r00_c09.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.shield": {
+      "file": "icons/r00_c12.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.chat": {
+      "file": "icons/r01_c00.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.sword": {
+      "file": "icons/r01_c01.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.gear": {
+      "file": "icons/r01_c02.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.wrench": {
+      "file": "icons/r01_c03.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.crown": {
+      "file": "icons/r01_c04.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.trophy": {
+      "file": "icons/r01_c05.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.swords": {
+      "file": "icons/r01_c07.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.gift": {
+      "file": "icons/r01_c08.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.save": {
+      "file": "icons/r01_c09.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.book.blue": {
+      "file": "icons/r01_c10.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.book.green": {
+      "file": "icons/r01_c11.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.book.red": {
+      "file": "icons/r01_c12.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.book.orange": {
+      "file": "icons/r01_c13.png",
+      "w": 16,
+      "h": 16
+    },
+    "icon.mail": {
+      "file": "icons/r01_c14.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.00": {
+      "file": "rings/ring_a_00.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.01": {
+      "file": "rings/ring_a_01.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.02": {
+      "file": "rings/ring_a_02.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.03": {
+      "file": "rings/ring_a_03.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.04": {
+      "file": "rings/ring_a_04.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.05": {
+      "file": "rings/ring_a_05.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.06": {
+      "file": "rings/ring_a_06.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.07": {
+      "file": "rings/ring_a_07.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.08": {
+      "file": "rings/ring_a_08.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.09": {
+      "file": "rings/ring_a_09.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.10": {
+      "file": "rings/ring_a_10.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.11": {
+      "file": "rings/ring_a_11.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.12": {
+      "file": "rings/ring_a_12.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.13": {
+      "file": "rings/ring_a_13.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.a.14": {
+      "file": "rings/ring_a_14.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.00": {
+      "file": "rings/ring_b_00.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.01": {
+      "file": "rings/ring_b_01.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.02": {
+      "file": "rings/ring_b_02.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.03": {
+      "file": "rings/ring_b_03.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.04": {
+      "file": "rings/ring_b_04.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.05": {
+      "file": "rings/ring_b_05.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.06": {
+      "file": "rings/ring_b_06.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.07": {
+      "file": "rings/ring_b_07.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.08": {
+      "file": "rings/ring_b_08.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.09": {
+      "file": "rings/ring_b_09.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.10": {
+      "file": "rings/ring_b_10.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.11": {
+      "file": "rings/ring_b_11.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.12": {
+      "file": "rings/ring_b_12.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.13": {
+      "file": "rings/ring_b_13.png",
+      "w": 16,
+      "h": 16
+    },
+    "ring.b.14": {
+      "file": "rings/ring_b_14.png",
+      "w": 16,
+      "h": 16
+    },
+    "book.grey": {
+      "file": "extras/book_grey.png",
+      "w": 224,
+      "h": 133
+    },
+    "book.tan": {
+      "file": "extras/book_tan.png",
+      "w": 224,
+      "h": 133
+    },
+    "bubble.blue_0": {
+      "file": "frames/bubble_blue_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.blue_1": {
+      "file": "frames/bubble_blue_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.blue_2": {
+      "file": "frames/bubble_blue_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.blue_3": {
+      "file": "frames/bubble_blue_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.green_0": {
+      "file": "frames/bubble_green_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.green_1": {
+      "file": "frames/bubble_green_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.green_2": {
+      "file": "frames/bubble_green_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.green_3": {
+      "file": "frames/bubble_green_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.grey_0": {
+      "file": "frames/bubble_grey_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.grey_1": {
+      "file": "frames/bubble_grey_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.grey_2": {
+      "file": "frames/bubble_grey_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.grey_3": {
+      "file": "frames/bubble_grey_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.grey_l": {
+      "file": "frames/bubble_grey_l.png",
+      "w": 26,
+      "h": 30
+    },
+    "bubble.grey_s": {
+      "file": "frames/bubble_grey_s.png",
+      "w": 20,
+      "h": 24
+    },
+    "bubble.purple_0": {
+      "file": "frames/bubble_purple_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.purple_1": {
+      "file": "frames/bubble_purple_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.purple_2": {
+      "file": "frames/bubble_purple_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.purple_3": {
+      "file": "frames/bubble_purple_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.red_0": {
+      "file": "frames/bubble_red_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.red_1": {
+      "file": "frames/bubble_red_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.red_2": {
+      "file": "frames/bubble_red_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.red_3": {
+      "file": "frames/bubble_red_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.tan_0": {
+      "file": "frames/bubble_tan_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.tan_1": {
+      "file": "frames/bubble_tan_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.tan_2": {
+      "file": "frames/bubble_tan_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.tan_3": {
+      "file": "frames/bubble_tan_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.white_l": {
+      "file": "frames/bubble_white_l.png",
+      "w": 26,
+      "h": 30
+    },
+    "bubble.white_s": {
+      "file": "frames/bubble_white_s.png",
+      "w": 20,
+      "h": 24
+    },
+    "bubble.yellow_0": {
+      "file": "frames/bubble_yellow_0.png",
+      "w": 30,
+      "h": 34
+    },
+    "bubble.yellow_1": {
+      "file": "frames/bubble_yellow_1.png",
+      "w": 30,
+      "h": 26
+    },
+    "bubble.yellow_2": {
+      "file": "frames/bubble_yellow_2.png",
+      "w": 24,
+      "h": 31
+    },
+    "bubble.yellow_3": {
+      "file": "frames/bubble_yellow_3.png",
+      "w": 24,
+      "h": 31
+    },
+    "flag.r0_00_red": {
+      "file": "extras/flag_r0_00_red.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_01_blue": {
+      "file": "extras/flag_r0_01_blue.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_02_green": {
+      "file": "extras/flag_r0_02_green.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_03_yellow": {
+      "file": "extras/flag_r0_03_yellow.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_04_tan": {
+      "file": "extras/flag_r0_04_tan.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_05_tan": {
+      "file": "extras/flag_r0_05_tan.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_06_grey": {
+      "file": "extras/flag_r0_06_grey.png",
+      "w": 22,
+      "h": 18
+    },
+    "flag.r0_07_red": {
+      "file": "extras/flag_r0_07_red.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r0_08_blue": {
+      "file": "extras/flag_r0_08_blue.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r0_09_green": {
+      "file": "extras/flag_r0_09_green.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r0_10_yellow": {
+      "file": "extras/flag_r0_10_yellow.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r0_11_tan": {
+      "file": "extras/flag_r0_11_tan.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r0_12_tan": {
+      "file": "extras/flag_r0_12_tan.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r0_13_grey": {
+      "file": "extras/flag_r0_13_grey.png",
+      "w": 22,
+      "h": 20
+    },
+    "flag.r1_00_red": {
+      "file": "extras/flag_r1_00_red.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_01_blue": {
+      "file": "extras/flag_r1_01_blue.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_02_green": {
+      "file": "extras/flag_r1_02_green.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_03_yellow": {
+      "file": "extras/flag_r1_03_yellow.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_04_tan": {
+      "file": "extras/flag_r1_04_tan.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_05_tan": {
+      "file": "extras/flag_r1_05_tan.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_06_grey": {
+      "file": "extras/flag_r1_06_grey.png",
+      "w": 28,
+      "h": 18
+    },
+    "flag.r1_07_red": {
+      "file": "extras/flag_r1_07_red.png",
+      "w": 28,
+      "h": 20
+    },
+    "flag.r1_08_blue": {
+      "file": "extras/flag_r1_08_blue.png",
+      "w": 28,
+      "h": 20
+    },
+    "flag.r1_09_green": {
+      "file": "extras/flag_r1_09_green.png",
+      "w": 28,
+      "h": 20
+    },
+    "flag.r1_10_yellow": {
+      "file": "extras/flag_r1_10_yellow.png",
+      "w": 28,
+      "h": 20
+    },
+    "flag.r1_11_tan": {
+      "file": "extras/flag_r1_11_tan.png",
+      "w": 28,
+      "h": 20
+    },
+    "flag.r1_12_tan": {
+      "file": "extras/flag_r1_12_tan.png",
+      "w": 28,
+      "h": 20
+    },
+    "flag.r1_13_grey": {
+      "file": "extras/flag_r1_13_grey.png",
+      "w": 28,
+      "h": 20
+    },
+    "ribbon.0": {
+      "file": "extras/ribbon_0.png",
+      "w": 78,
+      "h": 33
+    },
+    "ribbon.1": {
+      "file": "extras/ribbon_1.png",
+      "w": 78,
+      "h": 34
+    },
+    "ribbon.2": {
+      "file": "extras/ribbon_2.png",
+      "w": 64,
+      "h": 20
+    },
+    "ribbon.3": {
+      "file": "extras/ribbon_3.png",
+      "w": 78,
+      "h": 24
+    },
+    "ribbon.4": {
+      "file": "extras/ribbon_4.png",
+      "w": 92,
+      "h": 25
+    },
+    "ribbon.5": {
+      "file": "extras/ribbon_5.png",
+      "w": 92,
+      "h": 26
+    }
+  },
+  "all_files": {
+    "tan_oct_normal": "buttons/tan_oct_normal.png",
+    "tan_oct_hover": "buttons/tan_oct_hover.png",
+    "tan_oct_pressed": "buttons/tan_oct_pressed.png",
+    "tan_oct_small_normal": "buttons/tan_oct_small_normal.png",
+    "tan_oct_small_hover": "buttons/tan_oct_small_hover.png",
+    "tan_oct_small_pressed": "buttons/tan_oct_small_pressed.png",
+    "tan_rect_normal": "buttons/tan_rect_normal.png",
+    "tan_rect_hover": "buttons/tan_rect_hover.png",
+    "tan_rect_pressed": "buttons/tan_rect_pressed.png",
+    "tan_rect_small_normal": "buttons/tan_rect_small_normal.png",
+    "tan_rect_small_hover": "buttons/tan_rect_small_hover.png",
+    "tan_rect_small_pressed": "buttons/tan_rect_small_pressed.png",
+    "tan_round_normal": "buttons/tan_round_normal.png",
+    "tan_round_hover": "buttons/tan_round_hover.png",
+    "tan_round_pressed": "buttons/tan_round_pressed.png",
+    "tan_round_small_normal": "buttons/tan_round_small_normal.png",
+    "tan_round_small_hover": "buttons/tan_round_small_hover.png",
+    "tan_round_small_pressed": "buttons/tan_round_small_pressed.png",
+    "grey_oct_normal": "buttons/grey_oct_normal.png",
+    "grey_oct_hover": "buttons/grey_oct_hover.png",
+    "grey_oct_pressed": "buttons/grey_oct_pressed.png",
+    "grey_oct_small_normal": "buttons/grey_oct_small_normal.png",
+    "grey_oct_small_hover": "buttons/grey_oct_small_hover.png",
+    "grey_oct_small_pressed": "buttons/grey_oct_small_pressed.png",
+    "grey_rect_normal": "buttons/grey_rect_normal.png",
+    "grey_rect_hover": "buttons/grey_rect_hover.png",
+    "grey_rect_pressed": "buttons/grey_rect_pressed.png",
+    "grey_rect_small_normal": "buttons/grey_rect_small_normal.png",
+    "grey_rect_small_hover": "buttons/grey_rect_small_hover.png",
+    "grey_rect_small_pressed": "buttons/grey_rect_small_pressed.png",
+    "grey_round_normal": "buttons/grey_round_normal.png",
+    "grey_round_hover": "buttons/grey_round_hover.png",
+    "grey_round_pressed": "buttons/grey_round_pressed.png",
+    "grey_round_small_normal": "buttons/grey_round_small_normal.png",
+    "grey_round_small_hover": "buttons/grey_round_small_hover.png",
+    "grey_round_small_pressed": "buttons/grey_round_small_pressed.png",
+    "green_oct_normal": "buttons/green_oct_normal.png",
+    "green_oct_hover": "buttons/green_oct_hover.png",
+    "green_oct_pressed": "buttons/green_oct_pressed.png",
+    "green_oct_small_normal": "buttons/green_oct_small_normal.png",
+    "green_oct_small_hover": "buttons/green_oct_small_hover.png",
+    "green_oct_small_pressed": "buttons/green_oct_small_pressed.png",
+    "green_rect_normal": "buttons/green_rect_normal.png",
+    "green_rect_hover": "buttons/green_rect_hover.png",
+    "green_rect_pressed": "buttons/green_rect_pressed.png",
+    "green_rect_small_normal": "buttons/green_rect_small_normal.png",
+    "green_rect_small_hover": "buttons/green_rect_small_hover.png",
+    "green_rect_small_pressed": "buttons/green_rect_small_pressed.png",
+    "green_round_normal": "buttons/green_round_normal.png",
+    "green_round_hover": "buttons/green_round_hover.png",
+    "green_round_pressed": "buttons/green_round_pressed.png",
+    "green_round_small_normal": "buttons/green_round_small_normal.png",
+    "green_round_small_hover": "buttons/green_round_small_hover.png",
+    "green_round_small_pressed": "buttons/green_round_small_pressed.png",
+    "blue_oct_normal": "buttons/blue_oct_normal.png",
+    "blue_oct_hover": "buttons/blue_oct_hover.png",
+    "blue_oct_pressed": "buttons/blue_oct_pressed.png",
+    "blue_oct_small_normal": "buttons/blue_oct_small_normal.png",
+    "blue_oct_small_hover": "buttons/blue_oct_small_hover.png",
+    "blue_oct_small_pressed": "buttons/blue_oct_small_pressed.png",
+    "blue_rect_normal": "buttons/blue_rect_normal.png",
+    "blue_rect_hover": "buttons/blue_rect_hover.png",
+    "blue_rect_pressed": "buttons/blue_rect_pressed.png",
+    "blue_rect_small_normal": "buttons/blue_rect_small_normal.png",
+    "blue_rect_small_hover": "buttons/blue_rect_small_hover.png",
+    "blue_rect_small_pressed": "buttons/blue_rect_small_pressed.png",
+    "blue_round_normal": "buttons/blue_round_normal.png",
+    "blue_round_hover": "buttons/blue_round_hover.png",
+    "blue_round_pressed": "buttons/blue_round_pressed.png",
+    "blue_round_small_normal": "buttons/blue_round_small_normal.png",
+    "blue_round_small_hover": "buttons/blue_round_small_hover.png",
+    "blue_round_small_pressed": "buttons/blue_round_small_pressed.png",
+    "yellow_oct_normal": "buttons/yellow_oct_normal.png",
+    "yellow_oct_hover": "buttons/yellow_oct_hover.png",
+    "yellow_oct_pressed": "buttons/yellow_oct_pressed.png",
+    "yellow_oct_small_normal": "buttons/yellow_oct_small_normal.png",
+    "yellow_oct_small_hover": "buttons/yellow_oct_small_hover.png",
+    "yellow_oct_small_pressed": "buttons/yellow_oct_small_pressed.png",
+    "yellow_rect_normal": "buttons/yellow_rect_normal.png",
+    "yellow_rect_hover": "buttons/yellow_rect_hover.png",
+    "yellow_rect_pressed": "buttons/yellow_rect_pressed.png",
+    "yellow_rect_small_normal": "buttons/yellow_rect_small_normal.png",
+    "yellow_rect_small_hover": "buttons/yellow_rect_small_hover.png",
+    "yellow_rect_small_pressed": "buttons/yellow_rect_small_pressed.png",
+    "yellow_round_normal": "buttons/yellow_round_normal.png",
+    "yellow_round_hover": "buttons/yellow_round_hover.png",
+    "yellow_round_pressed": "buttons/yellow_round_pressed.png",
+    "yellow_round_small_normal": "buttons/yellow_round_small_normal.png",
+    "yellow_round_small_hover": "buttons/yellow_round_small_hover.png",
+    "yellow_round_small_pressed": "buttons/yellow_round_small_pressed.png",
+    "red_oct_normal": "buttons/red_oct_normal.png",
+    "red_oct_hover": "buttons/red_oct_hover.png",
+    "red_oct_pressed": "buttons/red_oct_pressed.png",
+    "red_oct_small_normal": "buttons/red_oct_small_normal.png",
+    "red_oct_small_hover": "buttons/red_oct_small_hover.png",
+    "red_oct_small_pressed": "buttons/red_oct_small_pressed.png",
+    "red_rect_normal": "buttons/red_rect_normal.png",
+    "red_rect_hover": "buttons/red_rect_hover.png",
+    "red_rect_pressed": "buttons/red_rect_pressed.png",
+    "red_rect_small_normal": "buttons/red_rect_small_normal.png",
+    "red_rect_small_hover": "buttons/red_rect_small_hover.png",
+    "red_rect_small_pressed": "buttons/red_rect_small_pressed.png",
+    "red_round_normal": "buttons/red_round_normal.png",
+    "red_round_hover": "buttons/red_round_hover.png",
+    "red_round_pressed": "buttons/red_round_pressed.png",
+    "red_round_small_normal": "buttons/red_round_small_normal.png",
+    "red_round_small_hover": "buttons/red_round_small_hover.png",
+    "red_round_small_pressed": "buttons/red_round_small_pressed.png",
+    "purple_oct_normal": "buttons/purple_oct_normal.png",
+    "purple_oct_hover": "buttons/purple_oct_hover.png",
+    "purple_oct_pressed": "buttons/purple_oct_pressed.png",
+    "purple_oct_small_normal": "buttons/purple_oct_small_normal.png",
+    "purple_oct_small_hover": "buttons/purple_oct_small_hover.png",
+    "purple_oct_small_pressed": "buttons/purple_oct_small_pressed.png",
+    "purple_rect_normal": "buttons/purple_rect_normal.png",
+    "purple_rect_hover": "buttons/purple_rect_hover.png",
+    "purple_rect_pressed": "buttons/purple_rect_pressed.png",
+    "purple_rect_small_normal": "buttons/purple_rect_small_normal.png",
+    "purple_rect_small_hover": "buttons/purple_rect_small_hover.png",
+    "purple_rect_small_pressed": "buttons/purple_rect_small_pressed.png",
+    "purple_round_normal": "buttons/purple_round_normal.png",
+    "purple_round_hover": "buttons/purple_round_hover.png",
+    "purple_round_pressed": "buttons/purple_round_pressed.png",
+    "purple_round_small_normal": "buttons/purple_round_small_normal.png",
+    "purple_round_small_hover": "buttons/purple_round_small_hover.png",
+    "purple_round_small_pressed": "buttons/purple_round_small_pressed.png",
+    "tile_tan": "frames/tile_tan.png",
+    "bubble_tan_0": "frames/bubble_tan_0.png",
+    "bubble_tan_1": "frames/bubble_tan_1.png",
+    "bubble_tan_2": "frames/bubble_tan_2.png",
+    "bubble_tan_3": "frames/bubble_tan_3.png",
+    "tile_grey": "frames/tile_grey.png",
+    "bubble_grey_0": "frames/bubble_grey_0.png",
+    "bubble_grey_1": "frames/bubble_grey_1.png",
+    "bubble_grey_2": "frames/bubble_grey_2.png",
+    "bubble_grey_3": "frames/bubble_grey_3.png",
+    "tile_green": "frames/tile_green.png",
+    "bubble_green_0": "frames/bubble_green_0.png",
+    "bubble_green_1": "frames/bubble_green_1.png",
+    "bubble_green_2": "frames/bubble_green_2.png",
+    "bubble_green_3": "frames/bubble_green_3.png",
+    "tile_blue": "frames/tile_blue.png",
+    "bubble_blue_0": "frames/bubble_blue_0.png",
+    "bubble_blue_1": "frames/bubble_blue_1.png",
+    "bubble_blue_2": "frames/bubble_blue_2.png",
+    "bubble_blue_3": "frames/bubble_blue_3.png",
+    "tile_yellow": "frames/tile_yellow.png",
+    "bubble_yellow_0": "frames/bubble_yellow_0.png",
+    "bubble_yellow_1": "frames/bubble_yellow_1.png",
+    "bubble_yellow_2": "frames/bubble_yellow_2.png",
+    "bubble_yellow_3": "frames/bubble_yellow_3.png",
+    "tile_red": "frames/tile_red.png",
+    "bubble_red_0": "frames/bubble_red_0.png",
+    "bubble_red_1": "frames/bubble_red_1.png",
+    "bubble_red_2": "frames/bubble_red_2.png",
+    "bubble_red_3": "frames/bubble_red_3.png",
+    "tile_purple": "frames/tile_purple.png",
+    "bubble_purple_0": "frames/bubble_purple_0.png",
+    "bubble_purple_1": "frames/bubble_purple_1.png",
+    "bubble_purple_2": "frames/bubble_purple_2.png",
+    "bubble_purple_3": "frames/bubble_purple_3.png",
+    "wood_frame_a": "frames/wood_frame_a.png",
+    "wood_frame_b": "frames/wood_frame_b.png",
+    "paper_m": "frames/paper_m.png",
+    "paper_l": "frames/paper_l.png",
+    "paper_grey_m": "frames/paper_grey_m.png",
+    "paper_grey_l": "frames/paper_grey_l.png",
+    "paper_s": "frames/paper_s.png",
+    "paper_grey_s": "frames/paper_grey_s.png",
+    "bubble_white_l": "frames/bubble_white_l.png",
+    "paper_soft_s": "frames/paper_soft_s.png",
+    "paper_soft_m": "frames/paper_soft_m.png",
+    "paper_soft_l": "frames/paper_soft_l.png",
+    "paper_grey_soft_s": "frames/paper_grey_soft_s.png",
+    "paper_grey_soft_m": "frames/paper_grey_soft_m.png",
+    "paper_grey_soft_l": "frames/paper_grey_soft_l.png",
+    "bubble_white_s": "frames/bubble_white_s.png",
+    "bubble_grey_l": "frames/bubble_grey_l.png",
+    "paper_edge_m": "frames/paper_edge_m.png",
+    "paper_edge_l": "frames/paper_edge_l.png",
+    "paper_dashed": "frames/paper_dashed.png",
+    "paper_grey_edge_m": "frames/paper_grey_edge_m.png",
+    "paper_grey_edge_l": "frames/paper_grey_edge_l.png",
+    "paper_grey_dashed": "frames/paper_grey_dashed.png",
+    "bubble_grey_s": "frames/bubble_grey_s.png",
+    "block_tan": "frames/block_tan.png",
+    "block_grey": "frames/block_grey.png",
+    "slot_tan_0": "frames/slot_tan_0.png",
+    "slot_tan_1": "frames/slot_tan_1.png",
+    "slot_tan_2": "frames/slot_tan_2.png",
+    "slot_tan_3": "frames/slot_tan_3.png",
+    "slot_tan_4": "frames/slot_tan_4.png",
+    "slot_tan_5": "frames/slot_tan_5.png",
+    "slot_tan_6": "frames/slot_tan_6.png",
+    "plate_tan": "frames/plate_tan.png",
+    "plate_grey": "frames/plate_grey.png",
+    "plate_brown": "frames/plate_brown.png",
+    "r00_c00": "icons/r00_c00.png",
+    "r00_c01": "icons/r00_c01.png",
+    "r00_c02": "icons/r00_c02.png",
+    "r00_c03": "icons/r00_c03.png",
+    "r00_c04": "icons/r00_c04.png",
+    "r00_c05": "icons/r00_c05.png",
+    "r00_c06": "icons/r00_c06.png",
+    "r00_c07": "icons/r00_c07.png",
+    "r00_c08": "icons/r00_c08.png",
+    "r00_c09": "icons/r00_c09.png",
+    "r00_c10": "icons/r00_c10.png",
+    "r00_c11": "icons/r00_c11.png",
+    "r00_c12": "icons/r00_c12.png",
+    "r00_c13": "icons/r00_c13.png",
+    "r00_c14": "icons/r00_c14.png",
+    "r01_c00": "icons/r01_c00.png",
+    "r01_c01": "icons/r01_c01.png",
+    "r01_c02": "icons/r01_c02.png",
+    "r01_c03": "icons/r01_c03.png",
+    "r01_c04": "icons/r01_c04.png",
+    "r01_c05": "icons/r01_c05.png",
+    "r01_c06": "icons/r01_c06.png",
+    "r01_c07": "icons/r01_c07.png",
+    "r01_c08": "icons/r01_c08.png",
+    "r01_c09": "icons/r01_c09.png",
+    "r01_c10": "icons/r01_c10.png",
+    "r01_c11": "icons/r01_c11.png",
+    "r01_c12": "icons/r01_c12.png",
+    "r01_c13": "icons/r01_c13.png",
+    "r01_c14": "icons/r01_c14.png",
+    "r02_c00": "icons/r02_c00.png",
+    "r02_c01": "icons/r02_c01.png",
+    "r02_c02": "icons/r02_c02.png",
+    "r02_c03": "icons/r02_c03.png",
+    "r02_c04": "icons/r02_c04.png",
+    "r02_c05": "icons/r02_c05.png",
+    "r02_c06": "icons/r02_c06.png",
+    "r02_c07": "icons/r02_c07.png",
+    "r02_c08": "icons/r02_c08.png",
+    "r02_c09": "icons/r02_c09.png",
+    "r02_c10": "icons/r02_c10.png",
+    "r02_c11": "icons/r02_c11.png",
+    "r02_c12": "icons/r02_c12.png",
+    "r02_c13": "icons/r02_c13.png",
+    "r02_c14": "icons/r02_c14.png",
+    "r03_c00": "icons/r03_c00.png",
+    "r03_c01": "icons/r03_c01.png",
+    "r03_c02": "icons/r03_c02.png",
+    "r03_c03": "icons/r03_c03.png",
+    "r03_c04": "icons/r03_c04.png",
+    "r03_c05": "icons/r03_c05.png",
+    "r03_c06": "icons/r03_c06.png",
+    "r03_c07": "icons/r03_c07.png",
+    "r03_c08": "icons/r03_c08.png",
+    "r03_c09": "icons/r03_c09.png",
+    "r03_c10": "icons/r03_c10.png",
+    "r03_c11": "icons/r03_c11.png",
+    "r03_c12": "icons/r03_c12.png",
+    "r03_c13": "icons/r03_c13.png",
+    "r03_c14": "icons/r03_c14.png",
+    "r04_c00": "icons/r04_c00.png",
+    "r04_c01": "icons/r04_c01.png",
+    "r04_c02": "icons/r04_c02.png",
+    "r04_c03": "icons/r04_c03.png",
+    "r04_c04": "icons/r04_c04.png",
+    "r04_c05": "icons/r04_c05.png",
+    "r04_c06": "icons/r04_c06.png",
+    "r04_c07": "icons/r04_c07.png",
+    "r04_c08": "icons/r04_c08.png",
+    "r04_c09": "icons/r04_c09.png",
+    "r04_c10": "icons/r04_c10.png",
+    "r04_c11": "icons/r04_c11.png",
+    "r04_c12": "icons/r04_c12.png",
+    "r04_c13": "icons/r04_c13.png",
+    "r04_c14": "icons/r04_c14.png",
+    "r05_c00": "icons/r05_c00.png",
+    "r05_c01": "icons/r05_c01.png",
+    "r05_c02": "icons/r05_c02.png",
+    "r05_c03": "icons/r05_c03.png",
+    "r05_c04": "icons/r05_c04.png",
+    "r05_c05": "icons/r05_c05.png",
+    "r05_c06": "icons/r05_c06.png",
+    "r05_c07": "icons/r05_c07.png",
+    "r05_c08": "icons/r05_c08.png",
+    "r05_c09": "icons/r05_c09.png",
+    "r05_c10": "icons/r05_c10.png",
+    "r05_c11": "icons/r05_c11.png",
+    "r05_c12": "icons/r05_c12.png",
+    "r05_c13": "icons/r05_c13.png",
+    "bars_long_set": "bars/bars_long_set.png",
+    "hud_frame_plain": "bars/hud_frame_plain.png",
+    "hud_frame_hero": "bars/hud_frame_hero.png",
+    "hud_frame_empty": "bars/hud_frame_empty.png",
+    "bar_track": "bars/bar_track.png",
+    "bar_fill_red": "bars/bar_fill_red.png",
+    "bar_fill_blue": "bars/bar_fill_blue.png",
+    "bar_fill_green": "bars/bar_fill_green.png",
+    "track_0": "sliders/track_0.png",
+    "track_1": "sliders/track_1.png",
+    "track_2": "sliders/track_2.png",
+    "track_3": "sliders/track_3.png",
+    "track_4": "sliders/track_4.png",
+    "track_5": "sliders/track_5.png",
+    "line_green": "sliders/line_green.png",
+    "line_red": "sliders/line_red.png",
+    "line_yellow": "sliders/line_yellow.png",
+    "line_tan": "sliders/line_tan.png",
+    "line_brown": "sliders/line_brown.png",
+    "line_grey": "sliders/line_grey.png",
+    "ring_a_00": "rings/ring_a_00.png",
+    "ring_a_01": "rings/ring_a_01.png",
+    "ring_a_02": "rings/ring_a_02.png",
+    "ring_a_03": "rings/ring_a_03.png",
+    "ring_a_04": "rings/ring_a_04.png",
+    "ring_a_05": "rings/ring_a_05.png",
+    "ring_a_06": "rings/ring_a_06.png",
+    "ring_a_07": "rings/ring_a_07.png",
+    "ring_a_08": "rings/ring_a_08.png",
+    "ring_a_09": "rings/ring_a_09.png",
+    "ring_a_10": "rings/ring_a_10.png",
+    "ring_a_11": "rings/ring_a_11.png",
+    "ring_a_12": "rings/ring_a_12.png",
+    "ring_a_13": "rings/ring_a_13.png",
+    "ring_a_14": "rings/ring_a_14.png",
+    "ring_b_00": "rings/ring_b_00.png",
+    "ring_b_01": "rings/ring_b_01.png",
+    "ring_b_02": "rings/ring_b_02.png",
+    "ring_b_03": "rings/ring_b_03.png",
+    "ring_b_04": "rings/ring_b_04.png",
+    "ring_b_05": "rings/ring_b_05.png",
+    "ring_b_06": "rings/ring_b_06.png",
+    "ring_b_07": "rings/ring_b_07.png",
+    "ring_b_08": "rings/ring_b_08.png",
+    "ring_b_09": "rings/ring_b_09.png",
+    "ring_b_10": "rings/ring_b_10.png",
+    "ring_b_11": "rings/ring_b_11.png",
+    "ring_b_12": "rings/ring_b_12.png",
+    "ring_b_13": "rings/ring_b_13.png",
+    "ring_b_14": "rings/ring_b_14.png",
+    "ribbon_0": "extras/ribbon_0.png",
+    "ribbon_1": "extras/ribbon_1.png",
+    "ribbon_2": "extras/ribbon_2.png",
+    "ribbon_3": "extras/ribbon_3.png",
+    "ribbon_4": "extras/ribbon_4.png",
+    "ribbon_5": "extras/ribbon_5.png",
+    "book_tan": "extras/book_tan.png",
+    "book_grey": "extras/book_grey.png",
+    "flag_r0_00_red": "extras/flag_r0_00_red.png",
+    "flag_r0_01_blue": "extras/flag_r0_01_blue.png",
+    "flag_r0_02_green": "extras/flag_r0_02_green.png",
+    "flag_r0_03_yellow": "extras/flag_r0_03_yellow.png",
+    "flag_r0_04_tan": "extras/flag_r0_04_tan.png",
+    "flag_r0_05_tan": "extras/flag_r0_05_tan.png",
+    "flag_r0_06_grey": "extras/flag_r0_06_grey.png",
+    "flag_r0_07_red": "extras/flag_r0_07_red.png",
+    "flag_r0_08_blue": "extras/flag_r0_08_blue.png",
+    "flag_r0_09_green": "extras/flag_r0_09_green.png",
+    "flag_r0_10_yellow": "extras/flag_r0_10_yellow.png",
+    "flag_r0_11_tan": "extras/flag_r0_11_tan.png",
+    "flag_r0_12_tan": "extras/flag_r0_12_tan.png",
+    "flag_r0_13_grey": "extras/flag_r0_13_grey.png",
+    "flag_r1_00_red": "extras/flag_r1_00_red.png",
+    "flag_r1_01_blue": "extras/flag_r1_01_blue.png",
+    "flag_r1_02_green": "extras/flag_r1_02_green.png",
+    "flag_r1_03_yellow": "extras/flag_r1_03_yellow.png",
+    "flag_r1_04_tan": "extras/flag_r1_04_tan.png",
+    "flag_r1_05_tan": "extras/flag_r1_05_tan.png",
+    "flag_r1_06_grey": "extras/flag_r1_06_grey.png",
+    "flag_r1_07_red": "extras/flag_r1_07_red.png",
+    "flag_r1_08_blue": "extras/flag_r1_08_blue.png",
+    "flag_r1_09_green": "extras/flag_r1_09_green.png",
+    "flag_r1_10_yellow": "extras/flag_r1_10_yellow.png",
+    "flag_r1_11_tan": "extras/flag_r1_11_tan.png",
+    "flag_r1_12_tan": "extras/flag_r1_12_tan.png",
+    "flag_r1_13_grey": "extras/flag_r1_13_grey.png"
+  }
+}

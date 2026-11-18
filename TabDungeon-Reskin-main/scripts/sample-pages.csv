@@ -1,0 +1,7 @@
+title,description,keywords,headings,domain,deckId,label
+"Binary tree traversal","Nodes and edges in a data structure","algorithms","Depth first search","wikipedia.org",data,related
+"Shopping deals","Cart, price, shipping and products","retail","Best offers","shop.example",data,unrelated
+"Study playlist","Music video and songs","playlist","Listen online","youtube.com",data,uncertain
+"Photosynthesis","Chlorophyll and plant energy","biology","Plant science","wikipedia.org",biology,related
+"Running shoes","Sports footwear and shipping","shopping","Buy now","shop.example",biology,unrelated
+"Exam topic","Review plants and cells","biology","Study guide","example.edu",biology,related

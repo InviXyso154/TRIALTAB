@@ -1,0 +1,3 @@
+Temporary Tiny Swords staging for a sprite-mapping agent.
+
+Map UI Elements first: papers, buttons, bars, ribbons, icons, avatars, wood tables, and banners. Map Terrain/Tileset for the center tile-map background. Units contains optional character sources for arena or avatar use. Preserve original relative paths in the staged folder. Do not edit or load these files from the extension directly; copy selected final assets into assets/ when approved.

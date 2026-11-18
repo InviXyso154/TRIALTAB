@@ -1,0 +1,4457 @@
+{
+  "source": "D:/TabDungeon/art-src/Tiny Swords (Free Pack)",
+  "purpose": "Temporary staging for sprite mapping; not extension runtime assets.",
+  "categories": {
+    "ui": "UI Elements",
+    "terrain": "Terrain tiles and backgrounds",
+    "units": "Optional character and animation sources"
+  },
+  "files": [
+    {
+      "staged": "Terrain/Decorations/Bushes/Bushe1.png",
+      "bytes": 3967,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Bushes/Bushe2.png",
+      "bytes": 2815,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Bushes/Bushe3.png",
+      "bytes": 7879,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Bushes/Bushe4.png",
+      "bytes": 3860,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Bushes/Bushes.aseprite",
+      "bytes": 29993,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds.aseprite",
+      "bytes": 14097,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_01.png",
+      "bytes": 4611,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_02.png",
+      "bytes": 3086,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_03.png",
+      "bytes": 2195,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_04.png",
+      "bytes": 1510,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_05.png",
+      "bytes": 4046,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_06.png",
+      "bytes": 2973,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_07.png",
+      "bytes": 2207,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Clouds/Clouds_08.png",
+      "bytes": 1479,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks/Rock1.png",
+      "bytes": 577,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks/Rock2.png",
+      "bytes": 805,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks/Rock3.png",
+      "bytes": 606,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks/Rock4.png",
+      "bytes": 900,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_01.aseprite",
+      "bytes": 20506,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_01.png",
+      "bytes": 3518,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_02.aseprite",
+      "bytes": 20506,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_02.png",
+      "bytes": 4906,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_03.aseprite",
+      "bytes": 20506,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_03.png",
+      "bytes": 3817,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_04.aseprite",
+      "bytes": 20506,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rocks in the Water/Water Rocks_04.png",
+      "bytes": 5881,
+      "format": "png",
+      "size": {
+        "width": 1024,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rubber Duck/Rubber Duck.aseprite",
+      "bytes": 1231,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Decorations/Rubber Duck/Rubber duck.png",
+      "bytes": 1090,
+      "format": "png",
+      "size": {
+        "width": 96,
+        "height": 32
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Resource/Gold Resource.aseprite",
+      "bytes": 2439,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Resource/Gold_Resource.png",
+      "bytes": 682,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Resource/Gold_Resource_Highlight.png",
+      "bytes": 1907,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 1.png",
+      "bytes": 802,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 1_Highlight.png",
+      "bytes": 2150,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 2.png",
+      "bytes": 797,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 2_Highlight.png",
+      "bytes": 2117,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 3.png",
+      "bytes": 1275,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 3_Highlight.png",
+      "bytes": 3604,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 4.png",
+      "bytes": 1364,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 4_Highlight.png",
+      "bytes": 3897,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 5.png",
+      "bytes": 2099,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 5_Highlight.png",
+      "bytes": 6192,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 6.png",
+      "bytes": 2146,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stone 6_Highlight.png",
+      "bytes": 5802,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Gold/Gold Stones/Gold Stones.aseprite",
+      "bytes": 35957,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Meat/Meat Resource/Meat Resource.png",
+      "bytes": 1118,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Meat/Sheep/Sheep.aseprite",
+      "bytes": 17812,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Meat/Sheep/Sheep_Grass.png",
+      "bytes": 4961,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Meat/Sheep/Sheep_Idle.png",
+      "bytes": 2813,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Meat/Sheep/Sheep_Move.png",
+      "bytes": 3131,
+      "format": "png",
+      "size": {
+        "width": 512,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Tools/Tool_01.png",
+      "bytes": 636,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Tools/Tool_02.png",
+      "bytes": 607,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Tools/Tool_03.png",
+      "bytes": 449,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Tools/Tool_04.png",
+      "bytes": 543,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Stump 1.png",
+      "bytes": 1233,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Stump 2.png",
+      "bytes": 1133,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Stump 3.png",
+      "bytes": 914,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Stump 4.png",
+      "bytes": 810,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Tree1.png",
+      "bytes": 16015,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Tree2.png",
+      "bytes": 17892,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Tree3.png",
+      "bytes": 14564,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Tree4.png",
+      "bytes": 10700,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Trees/Trees.aseprite",
+      "bytes": 82301,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Resources/Wood/Wood Resource/Wood Resource.png",
+      "bytes": 813,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Shadow.png",
+      "bytes": 995,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Tilemap_color1.png",
+      "bytes": 40222,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 384
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Tilemap_color2.png",
+      "bytes": 40334,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 384
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Tilemap_color3.png",
+      "bytes": 40184,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 384
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Tilemap_color4.png",
+      "bytes": 40211,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 384
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Tilemap_color5.png",
+      "bytes": 40342,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 384
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Water Background color.png",
+      "bytes": 222,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Water Foam.aseprite",
+      "bytes": 175276,
+      "format": "aseprite",
+      "category": "terrain"
+    },
+    {
+      "staged": "Terrain/Tileset/Water Foam.png",
+      "bytes": 10835,
+      "format": "png",
+      "size": {
+        "width": 3072,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "terrain"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Banner/Banner.png",
+      "bytes": 20704,
+      "format": "png",
+      "size": {
+        "width": 704,
+        "height": 512
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Banner/Slots.png",
+      "bytes": 5287,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Ribbons/Ribbon_Black.png",
+      "bytes": 50564,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 576
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Ribbons/Ribbon_Blue.png",
+      "bytes": 50983,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 576
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Ribbons/Ribbon_Purple.png",
+      "bytes": 50861,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 576
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Ribbons/Ribbon_Red.png",
+      "bytes": 51161,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 576
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Banners from the store page/Ribbons/Ribbon_Yellow.png",
+      "bytes": 51327,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 576
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Banners/Banner.png",
+      "bytes": 13151,
+      "format": "png",
+      "size": {
+        "width": 448,
+        "height": 448
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Banners/Banner_Slots.png",
+      "bytes": 4496,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Bars/BigBar_Base.png",
+      "bytes": 1794,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Bars/BigBar_Fill.png",
+      "bytes": 205,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Bars/SmallBar_Base.png",
+      "bytes": 639,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Bars/SmallBar_Fill.png",
+      "bytes": 127,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/BigBlueButton_Pressed.png",
+      "bytes": 2323,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/BigBlueButton_Regular.png",
+      "bytes": 2503,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/BigRedButton_Pressed.png",
+      "bytes": 2312,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/BigRedButton_Regular.png",
+      "bytes": 2456,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallBlueRoundButton_Pressed.png",
+      "bytes": 1825,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallBlueRoundButton_Regular.png",
+      "bytes": 2048,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallBlueSquareButton_Pressed.png",
+      "bytes": 1297,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallBlueSquareButton_Regular.png",
+      "bytes": 1419,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallRedRoundButton_Pressed.png",
+      "bytes": 1806,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallRedRoundButton_Regular.png",
+      "bytes": 2008,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallRedSquareButton_Pressed.png",
+      "bytes": 1287,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/SmallRedSquareButton_Regular.png",
+      "bytes": 1398,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/TinyRoundBlueButton.png",
+      "bytes": 1026,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/TinyRoundRedButton.png",
+      "bytes": 1032,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/TinySquareBlueButton.png",
+      "bytes": 685,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Buttons/TinySquareRedButton.png",
+      "bytes": 678,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Cursors/Cursor_01.png",
+      "bytes": 533,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Cursors/Cursor_02.png",
+      "bytes": 581,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Cursors/Cursor_03.png",
+      "bytes": 710,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Cursors/Cursor_04.png",
+      "bytes": 894,
+      "format": "png",
+      "size": {
+        "width": 128,
+        "height": 128
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_01.png",
+      "bytes": 6103,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_02.png",
+      "bytes": 4990,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_03.png",
+      "bytes": 5022,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_04.png",
+      "bytes": 5267,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_05.png",
+      "bytes": 4808,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_06.png",
+      "bytes": 6054,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_07.png",
+      "bytes": 4963,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_08.png",
+      "bytes": 5022,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_09.png",
+      "bytes": 5250,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_10.png",
+      "bytes": 4807,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_11.png",
+      "bytes": 6100,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_12.png",
+      "bytes": 4996,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_13.png",
+      "bytes": 5044,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_14.png",
+      "bytes": 5285,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_15.png",
+      "bytes": 4777,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_16.png",
+      "bytes": 6075,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_17.png",
+      "bytes": 4965,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_18.png",
+      "bytes": 5023,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_19.png",
+      "bytes": 5248,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_20.png",
+      "bytes": 4773,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_21.png",
+      "bytes": 6077,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_22.png",
+      "bytes": 4959,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_23.png",
+      "bytes": 5020,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_24.png",
+      "bytes": 5250,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Human Avatars/Avatars_25.png",
+      "bytes": 4798,
+      "format": "png",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_01.png",
+      "bytes": 1314,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_02.png",
+      "bytes": 1441,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_03.png",
+      "bytes": 1387,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_04.png",
+      "bytes": 1487,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_05.png",
+      "bytes": 1267,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_06.png",
+      "bytes": 1512,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_07.png",
+      "bytes": 856,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_08.png",
+      "bytes": 961,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_09.png",
+      "bytes": 1136,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_10.png",
+      "bytes": 1366,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_11.png",
+      "bytes": 1188,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Icons/Icon_12.png",
+      "bytes": 1028,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Papers/RegularPaper.png",
+      "bytes": 2659,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Papers/SpecialPaper.png",
+      "bytes": 3855,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Ribbons/BigRibbons.png",
+      "bytes": 34018,
+      "format": "png",
+      "size": {
+        "width": 448,
+        "height": 640
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Ribbons/SmallRibbons.png",
+      "bytes": 11904,
+      "format": "png",
+      "size": {
+        "width": 320,
+        "height": 640
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Swords/Swords.png",
+      "bytes": 20595,
+      "format": "png",
+      "size": {
+        "width": 448,
+        "height": 640
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Wood Table/WoodTable.png",
+      "bytes": 12144,
+      "format": "png",
+      "size": {
+        "width": 448,
+        "height": 448
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "UI Elements/UI Elements/Wood Table/WoodTable_Slots.png",
+      "bytes": 3595,
+      "format": "png",
+      "size": {
+        "width": 192,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "ui"
+    },
+    {
+      "staged": "Units/Black Units/Archer/Archer_Idle.png",
+      "bytes": 5067,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Archer/Archer_Run.png",
+      "bytes": 5370,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Archer/Archer_Shoot.png",
+      "bytes": 11952,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Archer/Arrow.png",
+      "bytes": 416,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Down_Attack.png",
+      "bytes": 6037,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Down_Defence.png",
+      "bytes": 7215,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_DownRight_Attack.png",
+      "bytes": 6669,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_DownRight_Defence.png",
+      "bytes": 8632,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Idle.png",
+      "bytes": 13249,
+      "format": "png",
+      "size": {
+        "width": 3840,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Right_Attack.png",
+      "bytes": 4757,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Right_Defence.png",
+      "bytes": 7403,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Run.png",
+      "bytes": 11092,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Up_Attack.png",
+      "bytes": 5139,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_Up_Defence.png",
+      "bytes": 7040,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_UpRight_Attack.png",
+      "bytes": 5863,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Lancer/Lancer_UpRight_Defence.png",
+      "bytes": 7926,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Monk/Heal.png",
+      "bytes": 11572,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Monk/Heal_Effect.png",
+      "bytes": 9658,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Monk/Idle.png",
+      "bytes": 6482,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Monk/Run.png",
+      "bytes": 5600,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Axe.png",
+      "bytes": 7419,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Gold.png",
+      "bytes": 8581,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Hammer.png",
+      "bytes": 7860,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Knife.png",
+      "bytes": 7352,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Meat.png",
+      "bytes": 9154,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Pickaxe.png",
+      "bytes": 7441,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle Wood.png",
+      "bytes": 7009,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Idle.png",
+      "bytes": 6629,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Interact Axe.png",
+      "bytes": 8055,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Interact Hammer.png",
+      "bytes": 4992,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Interact Knife.png",
+      "bytes": 5741,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Interact Pickaxe.png",
+      "bytes": 8572,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Axe.png",
+      "bytes": 7153,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Gold.png",
+      "bytes": 7699,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Hammer.png",
+      "bytes": 7596,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Knife.png",
+      "bytes": 6768,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Meat.png",
+      "bytes": 8907,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Pickaxe.png",
+      "bytes": 6905,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run Wood.png",
+      "bytes": 8053,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Pawn/Pawn_Run.png",
+      "bytes": 6055,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Warrior/Warrior_Attack1.png",
+      "bytes": 8176,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Warrior/Warrior_Attack2.png",
+      "bytes": 9015,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Warrior/Warrior_Guard.png",
+      "bytes": 7359,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Warrior/Warrior_Idle.png",
+      "bytes": 9593,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Black Units/Warrior/Warrior_Run.png",
+      "bytes": 9778,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Archer/Archer_Idle.png",
+      "bytes": 5024,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Archer/Archer_Run.png",
+      "bytes": 5327,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Archer/Archer_Shoot.png",
+      "bytes": 11874,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Archer/Arrow.png",
+      "bytes": 416,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Down_Attack.png",
+      "bytes": 6091,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Down_Defence.png",
+      "bytes": 7309,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_DownRight_Attack.png",
+      "bytes": 6729,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_DownRight_Defence.png",
+      "bytes": 8661,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Idle.png",
+      "bytes": 13286,
+      "format": "png",
+      "size": {
+        "width": 3840,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Right_Attack.png",
+      "bytes": 4798,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Right_Defence.png",
+      "bytes": 7399,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Run.png",
+      "bytes": 11232,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Up_Attack.png",
+      "bytes": 5219,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_Up_Defence.png",
+      "bytes": 7004,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_UpRight_Attack.png",
+      "bytes": 5941,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Lancer/Lancer_UpRight_Defence.png",
+      "bytes": 7940,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Monk/Heal.png",
+      "bytes": 11616,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Monk/Heal_Effect.png",
+      "bytes": 9658,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Monk/Idle.png",
+      "bytes": 6531,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Monk/Run.png",
+      "bytes": 5590,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Axe.png",
+      "bytes": 7441,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Gold.png",
+      "bytes": 8571,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Hammer.png",
+      "bytes": 7913,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Knife.png",
+      "bytes": 7365,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Meat.png",
+      "bytes": 9187,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Pickaxe.png",
+      "bytes": 7396,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle Wood.png",
+      "bytes": 7043,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Idle.png",
+      "bytes": 6656,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Interact Axe.png",
+      "bytes": 8057,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Interact Hammer.png",
+      "bytes": 4997,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Interact Knife.png",
+      "bytes": 5742,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Interact Pickaxe.png",
+      "bytes": 8508,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Axe.png",
+      "bytes": 7175,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Gold.png",
+      "bytes": 7702,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Hammer.png",
+      "bytes": 7610,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Knife.png",
+      "bytes": 6780,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Meat.png",
+      "bytes": 8918,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Pickaxe.png",
+      "bytes": 6879,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run Wood.png",
+      "bytes": 8064,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Pawn/Pawn_Run.png",
+      "bytes": 6078,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Warrior/Warrior_Attack1.png",
+      "bytes": 8169,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Warrior/Warrior_Attack2.png",
+      "bytes": 8984,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Warrior/Warrior_Guard.png",
+      "bytes": 7486,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Warrior/Warrior_Idle.png",
+      "bytes": 9948,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Blue Units/Warrior/Warrior_Run.png",
+      "bytes": 9809,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Archer/Archer_Idle.png",
+      "bytes": 5045,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Archer/Archer_Run.png",
+      "bytes": 5334,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Archer/Archer_Shoot.png",
+      "bytes": 11960,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Archer/Arrow.png",
+      "bytes": 416,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Down_Attack.png",
+      "bytes": 6053,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Down_Defence.png",
+      "bytes": 7289,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_DownRight_Attack.png",
+      "bytes": 6735,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_DownRight_Defence.png",
+      "bytes": 8653,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Idle.png",
+      "bytes": 13247,
+      "format": "png",
+      "size": {
+        "width": 3840,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Right_Attack.png",
+      "bytes": 4780,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Right_Defence.png",
+      "bytes": 7364,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Run.png",
+      "bytes": 11182,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Up_Attack.png",
+      "bytes": 5194,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_Up_Defence.png",
+      "bytes": 6976,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_UpRight_Attack.png",
+      "bytes": 5919,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Lancer/Lancer_UpRight_Defence.png",
+      "bytes": 7891,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Monk/Heal.png",
+      "bytes": 11586,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Monk/Heal_Effect.png",
+      "bytes": 9658,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Monk/Idle.png",
+      "bytes": 6519,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Monk/Run.png",
+      "bytes": 5576,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Axe.png",
+      "bytes": 7420,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Gold.png",
+      "bytes": 8568,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Hammer.png",
+      "bytes": 7860,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Knife.png",
+      "bytes": 7365,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Meat.png",
+      "bytes": 9179,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Pickaxe.png",
+      "bytes": 7355,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle Wood.png",
+      "bytes": 7029,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Idle.png",
+      "bytes": 6638,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Interact Axe.png",
+      "bytes": 8053,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Interact Hammer.png",
+      "bytes": 4993,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Interact Knife.png",
+      "bytes": 5741,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Interact Pickaxe.png",
+      "bytes": 8506,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Axe.png",
+      "bytes": 7159,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Gold.png",
+      "bytes": 7692,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Hammer.png",
+      "bytes": 7592,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Knife.png",
+      "bytes": 6775,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Meat.png",
+      "bytes": 8909,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Pickaxe.png",
+      "bytes": 6863,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run Wood.png",
+      "bytes": 8052,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Pawn/Pawn_Run.png",
+      "bytes": 6064,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Warrior/Warrior_Attack1.png",
+      "bytes": 8150,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Warrior/Warrior_Attack2.png",
+      "bytes": 8972,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Warrior/Warrior_Guard.png",
+      "bytes": 7440,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Warrior/Warrior_Idle.png",
+      "bytes": 9829,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Purple Units/Warrior/Warrior_Run.png",
+      "bytes": 9759,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Archer/Archer_Idle.png",
+      "bytes": 5056,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Archer/Archer_Run.png",
+      "bytes": 5349,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Archer/Archer_Shoot.png",
+      "bytes": 11899,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Archer/Arrow.png",
+      "bytes": 416,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Down_Attack.png",
+      "bytes": 6124,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Down_Defence.png",
+      "bytes": 7287,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_DownRight_Attack.png",
+      "bytes": 6729,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_DownRight_Defence.png",
+      "bytes": 8720,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Idle.png",
+      "bytes": 13271,
+      "format": "png",
+      "size": {
+        "width": 3840,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Right_Attack.png",
+      "bytes": 4759,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Right_Defence.png",
+      "bytes": 7348,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Run.png",
+      "bytes": 11187,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Up_Attack.png",
+      "bytes": 5185,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_Up_Defence.png",
+      "bytes": 6997,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_UpRight_Attack.png",
+      "bytes": 5916,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Lancer/Lancer_UpRight_Defence.png",
+      "bytes": 7931,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Monk/Heal.png",
+      "bytes": 11554,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Monk/Heal_Effect.png",
+      "bytes": 9658,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Monk/Idle.png",
+      "bytes": 6533,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Monk/Run.png",
+      "bytes": 5616,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Axe.png",
+      "bytes": 7419,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Gold.png",
+      "bytes": 8566,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Hammer.png",
+      "bytes": 7861,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Knife.png",
+      "bytes": 7367,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Meat.png",
+      "bytes": 9176,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Pickaxe.png",
+      "bytes": 7358,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle Wood.png",
+      "bytes": 7031,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Idle.png",
+      "bytes": 6641,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Interact Axe.png",
+      "bytes": 8055,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Interact Hammer.png",
+      "bytes": 4995,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Interact Knife.png",
+      "bytes": 5742,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Interact Pickaxe.png",
+      "bytes": 8501,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Axe.png",
+      "bytes": 7160,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Gold.png",
+      "bytes": 7697,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Hammer.png",
+      "bytes": 7574,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Knife.png",
+      "bytes": 6775,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Meat.png",
+      "bytes": 8907,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Pickaxe.png",
+      "bytes": 6866,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run Wood.png",
+      "bytes": 8054,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Pawn/Pawn_Run.png",
+      "bytes": 6055,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Warrior/Warrior_Attack1.png",
+      "bytes": 8133,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Warrior/Warrior_Attack2.png",
+      "bytes": 8933,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Warrior/Warrior_Guard.png",
+      "bytes": 7408,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Warrior/Warrior_Idle.png",
+      "bytes": 9832,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Red Units/Warrior/Warrior_Run.png",
+      "bytes": 9802,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Units (aseprite in Blue only)/Archer.aseprite",
+      "bytes": 30224,
+      "format": "aseprite",
+      "category": "units"
+    },
+    {
+      "staged": "Units/Units (aseprite in Blue only)/Lancer.aseprite",
+      "bytes": 94182,
+      "format": "aseprite",
+      "category": "units"
+    },
+    {
+      "staged": "Units/Units (aseprite in Blue only)/Monk.aseprite",
+      "bytes": 40700,
+      "format": "aseprite",
+      "category": "units"
+    },
+    {
+      "staged": "Units/Units (aseprite in Blue only)/Pawn.aseprite",
+      "bytes": 165731,
+      "format": "aseprite",
+      "category": "units"
+    },
+    {
+      "staged": "Units/Units (aseprite in Blue only)/Warrior.aseprite",
+      "bytes": 52776,
+      "format": "aseprite",
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Archer/Archer_Idle.png",
+      "bytes": 5044,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Archer/Archer_Run.png",
+      "bytes": 5357,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Archer/Archer_Shoot.png",
+      "bytes": 11996,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Archer/Arrow.png",
+      "bytes": 416,
+      "format": "png",
+      "size": {
+        "width": 64,
+        "height": 64
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Down_Attack.png",
+      "bytes": 6116,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Down_Defence.png",
+      "bytes": 7264,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_DownRight_Attack.png",
+      "bytes": 6800,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_DownRight_Defence.png",
+      "bytes": 8672,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Idle.png",
+      "bytes": 13325,
+      "format": "png",
+      "size": {
+        "width": 3840,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Right_Attack.png",
+      "bytes": 4804,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Right_Defence.png",
+      "bytes": 7393,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Run.png",
+      "bytes": 11241,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Up_Attack.png",
+      "bytes": 5173,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_Up_Defence.png",
+      "bytes": 6944,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_UpRight_Attack.png",
+      "bytes": 5906,
+      "format": "png",
+      "size": {
+        "width": 960,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Lancer/Lancer_UpRight_Defence.png",
+      "bytes": 7956,
+      "format": "png",
+      "size": {
+        "width": 1920,
+        "height": 320
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Monk/Heal.png",
+      "bytes": 11570,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Monk/Heal_Effect.png",
+      "bytes": 9658,
+      "format": "png",
+      "size": {
+        "width": 2112,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Monk/Idle.png",
+      "bytes": 6535,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Monk/Run.png",
+      "bytes": 5583,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Axe.png",
+      "bytes": 7439,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Gold.png",
+      "bytes": 8597,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Hammer.png",
+      "bytes": 7877,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Knife.png",
+      "bytes": 7366,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Meat.png",
+      "bytes": 9187,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Pickaxe.png",
+      "bytes": 7373,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle Wood.png",
+      "bytes": 7037,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Idle.png",
+      "bytes": 6652,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Interact Axe.png",
+      "bytes": 8056,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Interact Hammer.png",
+      "bytes": 4996,
+      "format": "png",
+      "size": {
+        "width": 576,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Interact Knife.png",
+      "bytes": 5744,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Interact Pickaxe.png",
+      "bytes": 8508,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Axe.png",
+      "bytes": 7177,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Gold.png",
+      "bytes": 7698,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Hammer.png",
+      "bytes": 7605,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Knife.png",
+      "bytes": 6778,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Meat.png",
+      "bytes": 8915,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Pickaxe.png",
+      "bytes": 6876,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run Wood.png",
+      "bytes": 8060,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Pawn/Pawn_Run.png",
+      "bytes": 6080,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Warrior/Warrior_Attack1.png",
+      "bytes": 8127,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Warrior/Warrior_Attack2.png",
+      "bytes": 8939,
+      "format": "png",
+      "size": {
+        "width": 768,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Warrior/Warrior_Guard.png",
+      "bytes": 7394,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Warrior/Warrior_Idle.png",
+      "bytes": 9828,
+      "format": "png",
+      "size": {
+        "width": 1536,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    },
+    {
+      "staged": "Units/Yellow Units/Warrior/Warrior_Run.png",
+      "bytes": 9805,
+      "format": "png",
+      "size": {
+        "width": 1152,
+        "height": 192
+      },
+      "mode": "RGBA",
+      "has_alpha": true,
+      "category": "units"
+    }
+  ]
+}

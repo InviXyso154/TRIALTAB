@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabDungeon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidepanel-container">
+    <div class="sidepanel border">
+      <header class="header">
+        <p class="eyebrow">FOCUS QUEST</p>
+        <h1>TabDungeon</h1>
+        <p class="header-subtitle">Gamified learning environment</p>
+      </header>
+      <section class="study-banner">
+        <strong>Focus-adaptive study helper</strong>
+        <span>Browse normally. Review cards when they are due.</span>
+      </section>
+      <main class="content" id="content-panel">
+        <section class="panel active" id="stats-panel">
+          <p class="panel-title">Study dashboard</p>
+          <div class="game-header-strip">
+            <strong id="game-level">Level 1</strong>
+            <div class="game-xp-track"><span id="game-xp-bar"></span></div>
+            <small id="game-xp">0 XP · 50 to next</small>
+            <strong id="game-streak">Streak 0</strong>
+          </div>
+          <div class="classification-card"><strong id="classification-status">Study session active</strong><span id="status-message">Exposure is tracked locally.</span></div>
+          <div class="session-stats">
+            <span id="study-exposure">Study exposure: 0m</span>
+            <span id="due-cards">Due cards: 0</span>
+            <span id="session-time">Session: 0m</span>
+            <span id="tab-count">New tabs: 0</span>
+          </div>
+          <h2>Active study context</h2><div id="tabs-list" class="tabs-list"><span>Loading...</span></div>
+          <section class="review-section">
+            <div class="review-heading">
+              <h2>Due flashcard</h2>
+              <button id="exit-test" class="exit-test" type="button" aria-label="Exit flashcard test" hidden>×</button>
+            </div>
+            <div id="review-arena" class="game-arena" aria-label="Study arena"></div>
+            <div id="review-status" class="review-status">Loading your next review...</div>
+            <div id="empty-card-state" class="drawn-card" hidden>
+              <button id="show-test-options" type="button">Test a card</button>
+            </div>
+            <div id="test-card-controls" class="drawn-card" hidden>
+              <label class="test-deck-choice">Choose a deck
+                <select id="test-deck-select"></select>
+              </label>
+              <button id="start-deck-test" type="button">Test a card</button>
+            </div>
+            <div id="due-card-state" class="drawn-card" hidden>
+              <span>A card is due for review.</span>
+              <label class="test-deck-choice">Choose a deck
+                <select id="due-deck-select"></select>
+              </label>
+              <button id="show-due-card" type="button">Answer</button>
+            </div>
+            <div id="answer-card" class="drawn-card" hidden>
+              <strong id="card-question"></strong>
+              <textarea id="card-response" class="card-response" rows="3" placeholder="Type your answer here..."></textarea>
+              <button id="submit-card-answer" type="button">Finish answer</button>
+              <span id="card-answer" hidden></span>
+            </div>
+            <div id="review-actions" class="review-actions" hidden>
+              <span>How well did you recall it?</span>
+              <div class="quality-buttons">
+                <button class="quality-button quality-again" data-quality="1" type="button">Again</button>
+                <button class="quality-button" data-quality="3" type="button">Hard</button>
+                <button class="quality-button quality-good" data-quality="4" type="button">Good</button>
+                <button class="quality-button quality-easy" data-quality="5" type="button">Easy</button>
+              </div>
+            </div>
+          </section>
+          <section id="adventure-log" class="adventure-log">
+            <h2>Adventure log</h2>
+            <span id="adventure-defeated">Cards defeated: 0</span>
+            <span id="adventure-bosses">Bosses defeated: 0</span>
+            <span id="adventure-best-streak">Best streak: 0</span>
+          </section>
+        </section>
+        <section class="panel" id="guide-panel" hidden>
+          <p class="panel-title">Guide Chat</p>
+          <div id="chat-messages" class="chat-messages"><div class="chat-message guide"><strong>Guide:</strong> Welcome back, traveler. Ask me about your focus quest, this session, or the path ahead.</div></div>
+          <div class="chat-entry"><input id="chat-input" type="text" placeholder="Ask the Guide..." autocomplete="off"><button id="chat-send" type="button">Send</button></div>
+        </section>
+        <section class="panel" id="cards-panel" hidden>
+          <p class="panel-title">Flashcard decks</p>
+          <div class="editor-toolbar">
+            <strong>Deck editor</strong>
+            <button id="open-deck-manager" type="button">Open full editor</button>
+            <div class="editor-form">
+              <input id="new-deck-name" type="text" placeholder="New deck topic" autocomplete="off">
+              <button id="add-deck" type="button">+ Deck</button>
+            </div>
+            <small id="deck-editor-status" aria-live="polite"></small>
+          </div>
+          <div id="deck-list" class="deck-list"></div>
+        </section>
+        <section class="panel" id="settings-panel" hidden>
+          <p class="panel-title">Settings</p>
+          <label class="setting-row">GUI scale <span><button id="scale-dec" type="button">A−</button><b id="scale-value">100%</b><button id="scale-inc" type="button">A+</button></span></label>
+          <label class="setting-row">AI Guide <input id="ai-toggle" type="checkbox" checked></label>
+          <label class="setting-row">Game effects <input id="game-effects" type="checkbox" checked></label>
+          <label class="setting-row">Reduce motion <input id="reduce-motion" type="checkbox"></label>
+          <label>Gemini API key<input id="api-key" type="password" placeholder="AIza..."></label>
+          <div class="button-row"><button id="save-key" type="button">Save key</button><button id="test-key" type="button">Test</button></div>
+          <small id="key-status" aria-live="polite"></small>
+          <label class="setting-row">Developer mode <input id="developer-mode" type="checkbox"></label>
+          <pre id="developer-output" hidden></pre>
+          <div id="developer-tools" class="developer-tools" hidden>
+            <p class="panel-title">SIMULATION</p>
+            <p>Test the relevance scorer without changing real cards or schedules.</p>
+            <button id="open-simulation" type="button">Open simulation page</button>
+          </div>
+        </section>
+      </main>
+      <nav class="footer-nav" aria-label="Main navigation">
+        <div class="footer-nav-item"><a href="#stats-panel" class="footer-nav-link active" data-panel="stats-panel" aria-label="Stats"><img src="../assets/sprites/icon_stats.png" alt="Stats" class="sprite"></a></div>
+        <div class="footer-nav-item"><a href="#guide-panel" class="footer-nav-link" data-panel="guide-panel" aria-label="Guide"><img src="../assets/sprites/icon_chat.png" alt="Guide" class="sprite"></a></div>
+        <div class="footer-nav-item"><a href="#cards-panel" class="footer-nav-link" data-panel="cards-panel" aria-label="Cards"><img src="../assets/sprites/icon_book.png" alt="Cards" class="sprite"></a></div>
+        <div class="footer-nav-item"><a href="#settings-panel" class="footer-nav-link" data-panel="settings-panel" aria-label="Settings"><img src="../assets/sprites/icon_settings.png" alt="Settings" class="sprite"></a></div>
+      </nav>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
